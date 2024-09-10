@@ -18,7 +18,7 @@ const AnotherCard = ({
 
   return (
     <div
-      className="bg-customGray-900 pt-20 pb-8 px-8 rounded-3xl shadow-md flex flex-col justify-between relative h-full"
+      className="bg-customGray-900 flex flex-col justify-between relative  pt-10 md:pt-20 pb-8 px-8 rounded-3xl shadow-md "
       data-aos="fade-up"
     >
       {isPopular && (
@@ -30,11 +30,13 @@ const AnotherCard = ({
         </span>
       )}
       <div>
-        <h3 className="text-2xl font-semibold text-white" data-aos="fade-up">{title}</h3>
-        <p className="text-customGray-400 mt-10 text-gray block" data-aos="fade-up" data-aos-delay="200">
+      <h2 className={`${title === "Basic" ? "text-white" : "text-green"} text-3xl font-semibold text-center`} data-aos="fade-up">
+  {title}
+</h2>
+        <p className="text-customGray-400 mt-8 text-gray  text-center " data-aos="fade-up" data-aos-delay="200">
           Get a professional website designed according to your needs.
         </p>
-        <p className="text-4xl font-medium mt-14 mb-14 block" data-aos="fade-up" data-aos-delay="300">
+        <p className="text-4xl font-medium my-10 md:my-14 text-center" data-aos="fade-up" data-aos-delay="300">
           ${price}
           <span className="text-sm font-normal">/month</span>
         </p>

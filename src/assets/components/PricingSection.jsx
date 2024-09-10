@@ -27,8 +27,8 @@ const PricingSection = () => {
     ];
   
     return (
-      <section className="bg-customGray-800 py-4">
-        <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-10">
+      <section className="py-4">
+        <div className="  px-6 grid grid-cols-1 md:grid-cols-3 gap-4">
           {plans.map((plan, index) => (
             <AnotherCard key={index} {...plan} />
           ))}

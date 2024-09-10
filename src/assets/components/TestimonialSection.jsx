@@ -5,7 +5,7 @@ import Badge from './reusable-components/Badge';
 import arrow from '../images/arrow.svg';
 
 const TestimonialSection = () => (
-  <section className="bg-navBackground text-white py-16 px-12">
+  <section className=" container mx-auto text-white px-4">
       <div className="max-w-7xl mx-auto text-center mb-10">
 
       <Badge isDarkMode={true} width = {'160px'} justify='center gap-2'>

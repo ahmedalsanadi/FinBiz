@@ -24,11 +24,11 @@ const Header = ({ headline, description }) => {
       </div>
 
      
-      <div className="max-w-[880px] mx-auto p-2" data-aos="fade-up" data-aos-delay="200">
+      <article className="max-w-[880px] mx-auto p-2" data-aos="fade-up" data-aos-delay="200">
         <p className="text-gray text-p mb-8">
           {description}
         </p>
-      </div>
+      </article>
     </header>
   );
 };

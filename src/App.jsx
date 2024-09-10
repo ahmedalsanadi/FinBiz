@@ -39,11 +39,15 @@ function App() {
       <section className="hero bg-customGray-800">
         <PlanSection />
       </section>
-      <section className="hero bg-customGray-800 px-10 py-10">
+      <section className="hero bg-customGray-800">
         <PreFooterSection />
       </section>
 
-      <Footer />
+      <footer className='bg-veryDarkGray '>
+        <Footer />
+      </footer>
+
+     
     </main>
   );
 }

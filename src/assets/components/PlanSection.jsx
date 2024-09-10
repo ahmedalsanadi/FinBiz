@@ -8,8 +8,10 @@ import PricingSection from './PricingSection'
 const PlanSection = () => {
 
   return (
-      <section className="bg-customGray-800 text-white py-8 px-8">
-        <div className="max-w-[1088px] mx-auto text-center ">
+<section>
+
+        <div className=" container mx-auto text-white py-8 px-8">
+        <div className=" text-center ">
           <Badge isDarkMode={true} width={'80px'}>
 
               <img src={arrow} alt="arrow" className="py-1" />
@@ -23,7 +25,8 @@ const PlanSection = () => {
 
         </div>
         <PricingSection />
-  </section>
+  </div>
+</section>
   )
 }
 

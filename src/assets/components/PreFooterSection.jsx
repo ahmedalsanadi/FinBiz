@@ -10,8 +10,9 @@ const PreFooterSection = () => {
   }, []);
 
   return (
-<div
-  className="bg-veryDarkGray container mx-auto pl-12 pr-12 md:pl-16 md:pr-4 pt-8 pb-1 md:py-4 flex flex-col md:flex-row items-center justify-between rounded-3xl shadow-md overflow-hidden"
+    <div className='px-2 py-20 container mx-auto '>
+      <div
+  className="bg-veryDarkGray pl-12 pr-12 md:pl-16 md:pr-4 pt-8 pb-4 md:py-4  px-30 flex flex-col md:flex-row items-center justify-between rounded-3xl shadow-md overflow-hidden "
   data-aos="fade-up" 
 >
   <div
@@ -39,6 +40,8 @@ const PreFooterSection = () => {
     />
   </div>
 </div>
+    </div>
+
   );
 };
 

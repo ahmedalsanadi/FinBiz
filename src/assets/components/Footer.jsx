@@ -3,8 +3,8 @@ import Button from './reusable-components/Button';
 
 const Footer = () => {
   return (
-    <footer className="bg-veryDarkGray text-lightGray py-12">
-      <div className="max-w-6xl mx-auto px-4 md:px-0 flex flex-col md:flex-row justify-between items-start md:items-center">
+    <footer className="container mx-auto text-lightGray py-12">
+      <div className=" mx-auto px-4 md:px-0 flex flex-col md:flex-row justify-between items-start md:items-center">
         {/* Left Section: Logo and Description */}
         <div className="mb-8 md:mb-0 md:mr-12 flex-1 text-left">
           <h2 className="text-green text-xl font-semibold mb-3">FinBiz</h2>
