@@ -31,6 +31,16 @@ const LineChart = () => {
   const options = {
     responsive: true,
     maintainAspectRatio: false,
+    animation: {
+      duration: 2000, // Time in milliseconds for the line to be drawn
+      easing: 'easeInOutQuad', // Smooth progressive drawing effect
+      onProgress: function(animation) {
+        console.log(`Animation Progress: ${animation.currentStep / animation.numSteps * 100}%`);
+      },
+      onComplete: function() {
+        console.log('Animation Completed');
+      }
+    },
     plugins: {
       tooltip: {
         enabled: true, // Tooltips for interactivity
