@@ -10,35 +10,35 @@ const PreFooterSection = () => {
   }, []);
 
   return (
-    <div
-      className="bg-veryDarkGray max-w-6xl mx-auto px-4 py-6 flex flex-col md:flex-row items-center justify-between rounded-xl shadow-md overflow-hidden"
-      data-aos="fade-up" 
-    >
-      <div
-        className="flex-1 md:pr-8 mb-8 md:mb-0"
-        data-aos="fade-right"
-      >
-        <h2 className="text-6xl font-semibold text-white leading-tight">
-          Let’s Upgrade your finances experience by using FinBiz
-        </h2>
-        <div className="flex space-x-4 mt-8 mx-auto">
-          <Button text="Request Demo" variant="contact" />
-          <Button text="Watch Video" variant="white" />
-        </div>
-      </div>
-
-      {/* Image Section */}
-      <div
-        className="flex-1"
-        data-aos="fade-left" 
-      >
-        <img
-          src={human} 
-          alt="FinBiz Demo"
-          className="rounded-lg w-full max-w-[550px] max-h-[400px] object-cover"
-        />
-      </div>
+<div
+  className="bg-veryDarkGray container mx-auto pl-12 pr-12 md:pl-16 md:pr-4 py-4 flex flex-col md:flex-row items-center justify-between rounded-3xl shadow-md overflow-hidden"
+  data-aos="fade-up" 
+>
+  <div
+    className="flex-1 md:pr-8 mb-8 md:mb-0"
+    data-aos="fade-right"
+  >
+    <h2 className="text-4xl md:text-6xl text-left font-semibold text-white leading-snug md:leading-[65px] ">
+      Let’s Upgrade your finances experience by using FinBiz
+    </h2>
+    <div className="flex space-x-4 mt-8 mx-auto">
+      <Button text="Request Demo" variant="demo"  />
+      <Button text="Watch Video" variant="video" />
     </div>
+  </div>
+
+  {/* Image Section */}
+  <div
+    className="flex-1 mb-8 md:mb-0 flex justify-end"
+    data-aos="fade-left" 
+  >
+    <img
+      src={human} 
+      alt="FinBiz Demo"
+      className="rounded-lg w-full max-w-[500px] object-cover"
+    />
+  </div>
+</div>
   );
 };
 

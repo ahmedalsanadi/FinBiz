@@ -14,7 +14,7 @@ import {
 
 const CardSection = () => {
 	return (
-		<div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-4 p-4 mt-32 container mx-auto ">
+		<div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-4 p-4 mt-32 container mx-auto  ">
 			{/* Card 1: Simple Analytics */}
 			<Card
 				title="Simple analytics"
