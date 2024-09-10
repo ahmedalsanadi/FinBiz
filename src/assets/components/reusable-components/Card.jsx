@@ -1,7 +1,5 @@
 /* eslint-disable react/prop-types */
-import { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 
 const Card = ({
 	title,
@@ -14,14 +12,7 @@ const Card = ({
 	span = 1,
 	children,
 }) => {
-	useEffect(() => {
-		AOS.init({
-			duration: 600,
-			easing: 'ease-in-out',
-			once: true,
-			mirror: false,
-		});
-	}, []);
+
 	return (
 		<div
 			className={`bg-darkGray  py-10  px-4 rounded-3xl shadow-lg border border-dark flex flex-col w-full  z-20 hover:scale-105 transform transition-all duration-300 md:${

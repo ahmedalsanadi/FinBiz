@@ -1,12 +1,8 @@
-import  { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+
 
 // eslint-disable-next-line react/prop-types
 const TestimonialCard = ({ avatar, name, quote, stars }) => {
-  useEffect(() => {
-    AOS.init({ duration: 1000, offset: 100, once: true });
-  }, []);
+
 
   return (
     <div className="bg-darkGray rounded-xl p-6 shadow-lg" data-aos="fade-up">

@@ -1,11 +1,7 @@
-import  { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+
 
 const MiddleNav = () => {
-  useEffect(() => {
-    AOS.init({ duration: 1000 }); 
-  }, []);
+
 
   return (
     <nav className="flex justify-center items-center sticky top-2 z-20 mt-6 pt-2 md:pt-4 lg:pt-6 container mx-auto" >

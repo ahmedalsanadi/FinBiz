@@ -1,19 +1,9 @@
 
-import  { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+
 
 // eslint-disable-next-line react/prop-types
 const Header = ({ headline, description }) => {
   
-  useEffect(() => {
-    AOS.init({
-      duration: 1000, 
-      offset: 100, 
-      once: true, 
-    });
-  }, []);
-
   return (
     <header>
     

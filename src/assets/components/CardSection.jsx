@@ -1,4 +1,4 @@
-import 'aos/dist/aos.css'; // Import AOS styles
+
 import Card from './reusable-components/Card';
 import Button from './reusable-components/Button';
 import {
@@ -14,7 +14,7 @@ import {
 
 const CardSection = () => {
 	return (
-		<div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-6 p-4 md:p-6  md:mt-32 container mx-auto text-center  ">
+		<div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-6 p-4 md:p-6  md:mt-32 container mx-auto text-center  my-10">
 			{/* Card 1: Simple Analytics */}
 			<Card
 				title="Simple analytics"

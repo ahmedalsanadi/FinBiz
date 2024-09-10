@@ -1,6 +1,4 @@
 /* eslint-disable react/prop-types */
-import  { useEffect } from 'react';
-import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import Button from './Button';
 
@@ -12,9 +10,6 @@ const AnotherCard = ({
   buttonText,
   buttonVariant,
 }) => {
-  useEffect(() => {
-    AOS.init({ duration: 1000, offset: 100, once: true });
-  }, []);
 
   return (
     <div
