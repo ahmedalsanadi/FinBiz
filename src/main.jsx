@@ -4,7 +4,9 @@ import './index.css'; // Import Tailwind CSS
 import App from './App.jsx'
 import './index.css'
 import AOS from 'aos';
-import 'aos/dist/aos.css'; // Import AOS CSS
+import 'aos/dist/aos.css'; 
+import '../node_modules/swiper/swiper.min.css';
+
 
 
 AOS.init({
