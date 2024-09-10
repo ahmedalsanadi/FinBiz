@@ -24,12 +24,13 @@ const Card = ({
 	}, []);
 	return (
 		<div
-			className={`bg-darkGray py-10 px-4 rounded-3xl shadow-lg border border-dark flex flex-col items-center justify-center z-20 hover:scale-105 transform transition-all duration-300 ${
+			className={`bg-darkGray  py-10  px-4 rounded-3xl shadow-lg border border-dark flex flex-col w-full  z-20 hover:scale-105 transform transition-all duration-300 md:${
 				span === 2 ? 'col-span-2' : 'col-span-1'
 			}`}
 			data-aos="fade-up">
-			<h3
-				className={`text-white text-xl font-semibold mb-4 ${headStyle}`}>
+			{title ? (
+				<h2
+				className={`text-white text-xl font-bold mb-4 ${headStyle}`}>
 				{title}
 				{title2 ? (
 					<>
@@ -37,19 +38,19 @@ const Card = ({
 						{title2}
 					</>
 				) : null}
-			</h3>
-			<p className={`text-anotherDark text-xl  block mb-4 ${textStyle} `}>
-				{description}
-			</p>
+			</h2>
+			): null}	
+			{description ? <p className={`text-anotherDark text-xl  block mb-4 ${textStyle} `}>{description}</p> : null}
+		
 
 			{/* If children are passed, render them, otherwise render images */}
 			{children ? (
-				<div className="mt-auto">{children}</div>
+				<div className="">{children}</div>
 			) : (
 				<>
 					{/* Conditionally render a single image */}
 					{image && (
-						<div className="bg-gray-700 rounded-3xl overflow-hidden mt-auto">
+						<div className="bg-gray-700 rounded-3xl mt-4">
 							<img
 								src={image}
 								alt={title}

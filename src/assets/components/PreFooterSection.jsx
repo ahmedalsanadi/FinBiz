@@ -11,7 +11,7 @@ const PreFooterSection = () => {
 
   return (
 <div
-  className="bg-veryDarkGray container mx-auto pl-12 pr-12 md:pl-16 md:pr-4 py-4 flex flex-col md:flex-row items-center justify-between rounded-3xl shadow-md overflow-hidden"
+  className="bg-veryDarkGray container mx-auto pl-12 pr-12 md:pl-16 md:pr-4 pt-8 pb-1 md:py-4 flex flex-col md:flex-row items-center justify-between rounded-3xl shadow-md overflow-hidden"
   data-aos="fade-up" 
 >
   <div
@@ -29,7 +29,7 @@ const PreFooterSection = () => {
 
   {/* Image Section */}
   <div
-    className="flex-1 mb-8 md:mb-0 flex justify-end"
+    className="flex-1 mb-2 md:mb-0 flex justify-end"
     data-aos="fade-left" 
   >
     <img

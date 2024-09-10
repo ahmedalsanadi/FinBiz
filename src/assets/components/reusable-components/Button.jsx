@@ -4,7 +4,8 @@ const Button = ({ text, variant, addClass }) => {
   const variants = {
     default: 'bg-customGray-800 text-customWhite hover:bg-customGray-900',
     contact: 'bg-green text-black hover:bg-oliveGreen', 
-    white: 'bg-customWhite text-customGray-800 hover:bg-gray', 
+    white: 'bg-customWhite text-customGray-800 hover:bg-gray',
+    explore:'bg-customWhite text-customGray-800 hover:bg-gray max-w-[260px]',
     demo : 'bg-green text-black hover:bg-oliveGreen max-w-[260px] ', 
     video : 'bg-customWhite text-customGray-800 max-w-[260px] hover:bg-gray', 
     
