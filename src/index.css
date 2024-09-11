@@ -17,11 +17,14 @@ body {
 .card {
 	padding: 2em;
 }
+.testimonial-card {
+  transition: transform 0.3s ease;
+}
+
 .swiper-slide-active .testimonial-card {
-	transform: scale(1.1);
-	transition: transform 0.3s ease;
-  }
-  
-  .testimonial-card {
-	transition: all 0.3s ease;
-  }
+  transform: scale(1.1);
+}
+
+.testimonial-card:hover {
+  transform: translateY(-10px);
+}

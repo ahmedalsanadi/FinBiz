@@ -27,7 +27,7 @@ const TestimonialSection = () => {
       </div>
 
       {/* Swiper Section */}
-      <div className="max-w-6xl mx-auto relative py-6 sm:py-10">
+      <div className="container  mx-auto relative py-6 sm:py-10">
         <Swiper
           modules={[Navigation, EffectCoverflow]}
           spaceBetween={10}

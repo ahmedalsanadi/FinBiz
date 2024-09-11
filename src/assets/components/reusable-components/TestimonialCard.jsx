@@ -5,7 +5,7 @@ const TestimonialCard = ({ avatar, name, quote, stars }) => {
 
 
   return (
-    <div className="bg-darkGray rounded-xl p-6 shadow-lg" data-aos="fade-up">
+    <div className="bg-darkGray rounded-xl p-12 md:p-6 shadow-lg" data-aos="fade-up">
       <p className="text-anotherDark mb-6 text-left">{quote}</p>
 
       <div className="flex items-center mb-4" data-aos="zoom-in" data-aos-delay="200">
