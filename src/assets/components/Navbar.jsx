@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav className="bg-dark-900">
       <div className="container mx-auto px-4 py-4 flex lg:justify-evenly sm:justify-between items-center text-white">
         {/* Logo */}
-        <div className='flex items-center gap-2 transform transition-transform duration-300 hover:scale-105'>
+        <div className='flex items-center gap-2 transform transition-transform duration-300 hover:scale-105 cursor-pointer'>
           <img src={logo} alt="FinBiz Logo" />
           <div className="text-xl font-bold">
             FinBiz
