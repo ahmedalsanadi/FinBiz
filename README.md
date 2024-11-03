@@ -61,13 +61,13 @@ To get a local copy up and running, follow these steps:
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/ahmedalsanadi/finbiz.git
+   git clone https://github.com/ahmedalsanadi/FinBiz.git
    ```
 
 2. **Navigate into the directory**
 
    ```bash
-   cd finbiz
+   cd FinBiz
    ```
 
 3. **Install dependencies**
@@ -122,7 +122,7 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 ## 📧 Contact
 
 - **Ahmed Al-Sanadi** - [AhmedAlsanadi40@gmail.com](mailto:AhmedAlsanadi40@gmail.com)
-- **Project Link** - [https://github.com/ahmedalsanadi/finbiz](https://github.com/ahmedalsanadi/finbiz)
+- **Project Link** - [https://github.com/ahmedalsanadi/finbiz](https://github.com/ahmedalsanadi/FinBiz)
 
 ---
 
